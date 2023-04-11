@@ -1,0 +1,28 @@
+header {
+    height: 80px;
+    background-color: var(--color-bg-primary);
+    color: var(--color-font-primary);
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-bar {
+    display: flex;
+
+}
+
+.nav-bar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item {
+    margin-left: 20px;
+ }
+
+.menu-active {
+    font-weight: 700;
+}
+
