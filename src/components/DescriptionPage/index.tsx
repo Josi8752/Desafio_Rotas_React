@@ -11,7 +11,7 @@ export default function  DescriptionPage({text}: Props) {
     return (
        
         <div className='text container'>
-            {text}
+           <h1> {text}</h1>
         </div>
     
     );

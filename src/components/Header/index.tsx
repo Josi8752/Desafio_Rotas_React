@@ -22,7 +22,7 @@ export default function Header() {
                         Sobre nós
                     </NavLink>
                 </nav>
-                <NavLink to='/aboutWe'>
+                <NavLink to='/home'>
                     <img src={House} alt="Casa" />
                 </NavLink>
             </div>

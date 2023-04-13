@@ -5,7 +5,7 @@ export default function HomeBody() {
 
     return (
         <main>
-            <h1><DescriptionPage text='Bem-vindos!'/></h1>
+            <DescriptionPage text='Bem-vindos!'/>
         </main>
     );
 }
