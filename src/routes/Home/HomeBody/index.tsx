@@ -1,11 +1,17 @@
-import DescriptionPage from '../../../components/DescriptionPage';
-import './styles.css';
+
+import TitleMainPages from "../../../components/TitleMainPages";
+
+
 
 export default function HomeBody() {
 
     return (
+        <>
         <main>
-            <DescriptionPage text='Bem-vindos!'/>
+        <TitleMainPages title='Bem-vindos!' />
         </main>
+            
+            </>
+
     );
 }

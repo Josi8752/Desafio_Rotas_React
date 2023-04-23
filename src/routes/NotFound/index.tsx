@@ -1,12 +1,14 @@
-import './styles.css';
+import { Link } from 'react-router-dom';
+import TitleMainPages from '../../components/TitleMainPages';
 
 export default function NotFound(){
 
 
     return (
 
-        <div className='notFound container'>
-            <h1>Não encontrado</h1>
+        <div>
+         <TitleMainPages title='Não encontrado'/>
+            
         </div>
 
     );
