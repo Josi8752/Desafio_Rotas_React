@@ -6,26 +6,25 @@ import HomeBody from './routes/Home/HomeBody';
 import Products from './routes/Products';
 import NotFound from './routes/NotFound';
 import ProductCategory from './routes/Products/ProductCategory';
-import About from './routes/About';
+import About from './routes/Aboutwe';
 
 export default function App() {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home />}>
-      <Route index element={<Navigate to='/home' />} />
+      <Routes>
+        <Route path="/" element={<Home />}>
+          <Route index element={<Navigate to='/home' />} />
           <Route path='home' element={<HomeBody />} />
-        <Route path="products" element={<Products />}>
-          <Route path=":productId" element={<ProductCategory />} />
+          <Route path="products" element={<Products />}>
+            <Route path=":productId" element={<ProductCategory />} />
+          </Route>
+          <Route path="*" element={<NotFound />} />
+          <Route path="aboutwe" element={<About />} />
+          <Route path="notFound" element={<NotFound />} />
         </Route>
-        <Route path="*" element={<NotFound />} />
+      </Routes>
 
-        <Route path="aboutwe" element={<About/>}/>
-        <Route path="notFould" element={<NotFound />} />
-      </Route>
-    </Routes>
-
-  </BrowserRouter>
+    </BrowserRouter>
   );
 }
 

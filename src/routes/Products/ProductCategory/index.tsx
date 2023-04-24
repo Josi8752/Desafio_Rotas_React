@@ -1,9 +1,8 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { getProduct } from "../../../Data/data";
 export default function ProductCategory() {
   const params = useParams();
-  const product = getProduct(Number(params.productId));
-  const navigate = useNavigate();
+  const product = getProduct((params.productId));
   return (
     <>{
       product &&

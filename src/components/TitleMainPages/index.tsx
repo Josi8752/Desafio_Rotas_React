@@ -7,7 +7,10 @@ type Props = {
 export default function TitleMainPages({ title }: Props) {
 
     return (
-        <Link to='/home'><h1 className='container title-pages-main'>{title}</h1></Link> 
+        <div>
+            <h1 className='container title-pages-main'>{title}</h1>
+        </div>
+
 
     );
 }

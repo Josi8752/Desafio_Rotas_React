@@ -1,4 +1,4 @@
-.container-nav-products{
+.container-nav-products {
     height: 70px;
     background-color: var(--color-bg-tertiary);
     color: var(--color-font-secundary);
@@ -11,7 +11,7 @@
 
 .menu-item-products {
     margin-left: 20px;
- }
+}
 
 .menu-products-active {
     font-weight: 700;

@@ -7,11 +7,11 @@ export default function HomeBody() {
 
     return (
         <>
-        <main>
-        <TitleMainPages title='Bem-vindos!' />
-        </main>
-            
-            </>
+            <main>
+                <TitleMainPages title='Bem-vindos!' />
+            </main>
+
+        </>
 
     );
 }
